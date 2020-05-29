@@ -10,6 +10,7 @@ THIS_FILE_DIR := $(shell dirname $(THIS_FILE))
 
 # service conf
 API_NAME = flask-api
+PRIVKEY_PATH = $(THIS_FILE_DIR)/../../auth/source/resources/private.pem
 PUBKEY_PATH = $(THIS_FILE_DIR)/../source/resources/public.pem
 
 
